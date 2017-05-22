@@ -11,13 +11,13 @@ a {
 }
 
 .background-change {
-    background: rgba(153,51,102,1);
-    background: -moz-linear-gradient(-45deg, rgba(153,51,102,1) 0%, rgba(255,204,153,0.1) 100%);
-    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(153,51,102,1)), color-stop(100%, rgba(255,204,153,0.1)));
-    background: -webkit-linear-gradient(-45deg, rgba(153,51,102,1) 0%, rgba(255,204,153,0.1) 100%);
-    background: -o-linear-gradient(-45deg, rgba(153,51,102,1) 0%, rgba(255,204,153,0.1) 100%);
-    background: -ms-linear-gradient(-45deg, rgba(153,51,102,1) 0%, rgba(255,204,153,0.1) 100%);
-    background: linear-gradient(135deg, rgba(153,51,102,1) 0%, rgba(255,204,153,0.1) 100%);
+    background: rgba(153,51,102,0.7);
+    background: -moz-linear-gradient(-45deg, rgba(153,51,102,0.7) 0%, rgba(255,204,153,0.7) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(153,51,102,0.7)), color-stop(100%, rgba(255,204,153,0.7)));
+    background: -webkit-linear-gradient(-45deg, rgba(153,51,102,0.7) 0%, rgba(255,204,153,0.7) 100%);
+    background: -o-linear-gradient(-45deg, rgba(153,51,102,0.7) 0%, rgba(255,204,153,0.7) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(153,51,102,0.7) 0%, rgba(255,204,153,0.7) 100%);
+    background: linear-gradient(135deg, rgba(153,51,102,0.7) 0%, rgba(255,204,153,0.7) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#993366', endColorstr='#ffcc99', GradientType=1 );
 }
 
@@ -125,6 +125,14 @@ label.star:before {
     color: crimson;
 }
 
+/*================
+  profile
+  ================*/
+.profile > p > i {
+  color: white;
+}
+
+
 /*===================
   Button + Overlay
   ===================*/
@@ -132,16 +140,15 @@ label.star:before {
   .button {
   	display:inline;
   	position:absolute;
-  	right:50px;
-  	top:6px;
+  	top:7px;
   	z-index:999;
-  	font-size:2em;
+  	font-size:1.75em;
   }
   .button a {
   	text-decoration:none;
   }
   .btn-open:after {
-  	color:#333;
+  	color:#fff;
   	content:"\f0c9";
   	font-family:"FontAwesome";
   	transition-property:all .2s linear 0s;
@@ -150,7 +157,7 @@ label.star:before {
   	-o-transition:all .2s linear 0s;
   }
   .btn-open:hover:after {
-  	color:#34B484;
+  	color:rgba(153,51,102,1);
   }
   .btn-close:after {
   	color:#fff;
@@ -162,7 +169,7 @@ label.star:before {
   	-o-transition:all .2s linear 0s;
   }
   .btn-close:hover:after {
-  	color: #34B484;
+  	color: rgba(255,255,255,1);
   }
   /*overlay*/
   .overlay {
