@@ -1,1 +1,35 @@
 Tulis halaman apa yang udah diedit.
+
+Wisata Alam
+1. Air Terjun Lepo
+2. Embung Batara Sriten
+3. Goa Kiskendo
+4. Goa Rancang Kencono
+5. Hutan Pinus Mangunan
+6. Kebun Buah Mangunan
+7. Kebun Teh Nglinggo
+8. Pantai Glagah
+9. Pantai Parangtritis
+10. Puncak Suroloyo
+11. Sendang Ngembel
+12. Waduk Sermo
+
+Wisata Budaya
+1. Kebun Binatang Gembira Loka
+
+Wisata Budaya
+1. Candi Barong
+2. Candi Prambanan
+3. Goa Jepang
+4. Keraton Yogyakarta
+5. Malioboro
+6. Monjali
+7. Museum Merapi
+8. Taman Pintar
+
+
+catatan David :
+1. Pada menu menu, teks di atas gambar dikasih shadow.
+2. Semua gambar dikasih filter, nanti pas di hover nanti cerah
+3. menghilangkan vScroll
+
